@@ -6,7 +6,7 @@ It is assumed that the zip file contents are unzipped in the working directory. 
 
 ## Sequence of operations
 
-* Include the plyr and reshape2 libraries
+* Include the dplyr and reshape2 libraries
 * Read the features.txt file to get the 561 column names for data (var: names_colnames)
 * Read the activity_labels.txt file to get the activity labels (var: names_activities)
 * Read the 'train' data set from train subfolder
