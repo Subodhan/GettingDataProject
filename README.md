@@ -1,5 +1,8 @@
 # GettingDataProject
 Project for Getting and Cleaning Data course
+## Assumptions
+
+It is assumed that the zip file contents are unzipped in the working directory. The folder structure, as created by unzip, has been retained. The run_analysis.R script file is copied to the working directory.
 
 ## Sequence of operations
 
@@ -30,4 +33,4 @@ Project for Getting and Cleaning Data course
 * Drop the activity_id column (use select)
 * Once again use melt to create tall and skinny data set with 'Subject_id' and 'activity_name' as id columns (var: tidy_data)
 * Arrange the data on 'Subject_id' and 'activity_name'
-* write the table out with rpow.names = FALSE
+* write the table out with row.names = FALSE

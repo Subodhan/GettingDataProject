@@ -1,6 +1,6 @@
-*Code Book for outputData.txt
+#Code Book for outputData.txt
 
-The file exlains the columns (variables) in the outputData.txt file
+The file explains the columns (variables) in the outputData.txt file
 
 ## Variables
 
